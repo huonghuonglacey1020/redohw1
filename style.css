@@ -19,12 +19,7 @@ h2,
 h3,
 p {
     margin-bottom: 20px;
-  }
-  
-p:last-child {
-    margin-bottom: 0;
-  }
-  
+  };
 h1,
 h2,
 h3 {
@@ -136,7 +131,7 @@ h3, h2 {
     margin-right: 40px;
   }
   
-.baby img {
+.baby {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
