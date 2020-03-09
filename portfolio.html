@@ -3,52 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body background="images/let-there-be-sun.png">
-    <header id="masthead">
-        <div class="container">
-            <a href="#" id="logo">Huong Nguyen</a>
-            <nav id="link-main">
-                <a href="index.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <div id="main-containter" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-            <div class="baby">
-                <img src="images/IMG_0376.JPG" alt="baby cry">
-                <h3>Baby playing </h3>
-            </div>
-            <div class="baby">
-                <img src="images/IMG_0376.JPG" alt="baby cry">
-                <h3>Baby Cry </h3>
-            </div>
-            <div class="baby">
-                <img src="/images/IMG_0519.JPG" alt="baby and dad">
-                <h3>Baby and dad </h3>
-            </div>
-            <div class="baby">
-                <img src="/images/IMG_0510.JPG" alt="baby and mom">
-                <h3>Baby and mom</h3>
-            </div>
+    <nav class="navbar navbar-light bg-light container">
+        <span class="navbar-brand mb-0 h1">Huong Nguyen</span>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
 
-                
-        </section>
-    </div>
-    <footer>
-        <div class="container">
-            <p>Copyright</p>
-        </div>
-    </footer>
-
-
+        </ul>
+    </nav>
     
-</body>
-</html>
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-12">
+          
+              <div id="mdb-lightbox-ui"></div>
+          
+              <div class="mdb-lightbox no-margin">
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="./images/baby.jpeg"
+                    data-size="1600x1067">
+                    <img alt="picture" src="./images/baby.jpeg"
+                      class="img-fluid">
+                    <h3 class="text-center my-3">Baby</h3>
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="./images/babyDrink.jpeg"
+                    data-size="1600x1067">
+                    <img alt="picture" src="./images/babyDrink.jpeg"
+                      class="img-fluid" />
+                    <h3 class="text-center my-3">Baby drink</h3>
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="./images/babyshopping.jpeg"
+                    data-size="1600x1067">
+                    <img alt="picture" src="./images/babyshopping.jpeg"
+                      class="img-fluid" />
+                    <h3 class="text-center my-3">Baby shopping</h3>
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="./images/stock.png"
+                    data-size="1600x1067">
+                    <img alt="picture" src="./images/stock.png"
+                      class="img-fluid" />
+                    <h3 class="text-center my-3">Stock</h3>
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(122).jpg"
+                    data-size="1600x1067">
+                    <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(122).jpg"
+                      class="img-fluid" />
+                    <h3 class="text-center my-3">Nature Beauty</h3>
+                  </a>
+                </figure>
+          
+                <figure class="col-md-4">
+                  <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
+                    data-size="1600x1067">
+                    <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
+                      class="img-fluid" />
+                    <h3 class="text-center my-3">Nature beauty</h3>
+                  </a>
+                </figure>
+              </div>
+          
+            </div>
+          </div>
+          <script>
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+          </script>
+     <div class="container footer">
+            <p>Copy right</p>
+        </div>

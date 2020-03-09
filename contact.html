@@ -3,50 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
 </head>
 <body background="images/let-there-be-sun.png">
-    <header id="masthead">
-        <div class="container">
-            <a href="#" id="logo">Huong Nguyen</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="contact.html">Contact</a>
-                <a href="portfolio.html">Portfolio</a>
-            </nav>
-        </div>
-    </header>
-    <div id="main-containter" class="container">
-        <section class="main-section">
-            <h1>Contact</h1>
+    <nav class="navbar navbar-light bg-light container">
+        <span class="navbar-brand mb-0 h1">Huong Nguyen</span>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+            </li>
 
-            <form id="contact-form">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Johnsmith" required="required">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit">
-            </form>
-        </section>
-    </div>
-    <footer>
-        <div class="container">
-            <p>Copyright</p>
-        </div>
-    </footer>
-
+        </ul>
+    </nav>
     
-</body>
-</html>
+    <div class="container">
+        <h2>Contact</h2>
+        <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInput name">Name</label>
+                  <input type="name" class="form-control" id="exampleInput name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+    
+    </div>
+    <div class="container footer">
+            <p>Copy right</p>
+
+        
+          
+          
